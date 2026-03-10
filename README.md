@@ -15,7 +15,7 @@ These 'blocks' can be found here: https://github.com/odissei-data/Custom-Metadat
 
 There we have:
 - `CBSMetadata.properties`
-- `DANSmetadata.properties`
+- `dansMetadata.properties`
 - `enrichments.properties`
 - `provenance.properties`
 - `questionInformation.properties`
@@ -25,3 +25,7 @@ There we have:
 
 When Datavesre  is updated we should use the new properties file for the English 'version' (`*_en.properties`). 
 There is a Bash script that downloads the properties file from the IQSS Github repo: `download_from_IQSS.sh`. Pleas read the content and use it when updating. 
+
+## Possible future improvements
+
+We could automate the downloading from `Custom-Metadata-Blocks` via a script, similar to what we have for IQSS. 
