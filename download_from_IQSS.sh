@@ -6,7 +6,7 @@ TMP_DIR="tmp/en_US"
 mkdir -p "$TMP_DIR"
 
 # the tag
-DV_TAG="v6.6"
+DV_TAG="v6.9"
 
 # Set the base URL for the properties files
 BASE_URL="https://api.github.com/repos/IQSS/dataverse/contents/src/main/java/propertyFiles"
